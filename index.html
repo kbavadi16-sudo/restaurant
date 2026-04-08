@@ -3,38 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Restaurant Homepage</title>
+    <title>Kwality Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/menu.html">Menu</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-                <li><a href="pages/reservations.html">Reservations</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>Welcome to Our Restaurant</h1>
-            <p>Your culinary journey starts here</p>
+    <!-- Navbar -->
+    <nav>
+        <h1>Kwality Restaurant</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h2>A Taste of Authentic Flavor</h2>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+        <img src="badge1.png" alt="Trust Badge 1">
+        <img src="badge2.png" alt="Trust Badge 2">
+        <img src="badge3.png" alt="Trust Badge 3">
+    </section>
+
+    <!-- Signature Dishes Grid -->
+    <section class="dishes">
+        <h3>Signature Dishes</h3>
+        <div class="grid">
+            <div class="dish">Dish 1</div>
+            <div class="dish">Dish 2</div>
+            <div class="dish">Dish 3</div>
+            <div class="dish">Dish 4</div>
         </div>
-    </header>
-    <main>
-        <section class="menu-showcase">
-            <h2>Featured Dishes</h2>
-            <div class="dishes">
-                <img src="assets/images/placeholder.jpg" alt="Dish">
-                <p>Dish Name</p>
-                <p>Description of the dish.</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Restaurant Name. All Rights Reserved.</p>
-    </footer>
-    <script src="js/main.js"></script>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+        <h3>Your Experience Matters</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews">
+        <h3>What Our Customers Say</h3>
+        <p>Review 1</p>
+        <p>Review 2</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h3>About Us</h3>
+        <p>About content here...</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h3>Gallery</h3>
+        <div class="gallery-images">
+            <img src="image1.jpg" alt="Gallery Image 1">
+            <img src="image2.jpg" alt="Gallery Image 2">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: info@kwalityrestaurant.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/1234567890" class="float-button">WhatsApp</a>
 </body>
 </html>
